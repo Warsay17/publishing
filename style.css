@@ -1,0 +1,85 @@
+.smiley{
+	background-image: url(images/smiley.png);
+	width: 300px;
+	height:300px;
+	background-size: cover;
+	background-position: center;
+}
+
+h1{
+	
+	font-size: 4em;
+}
+header img{
+	margin:0 auto;
+	display:block;
+}
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+body{
+	margin: 10px 0;
+}
+nav{
+	background: linear-gradient(90deg, rgba(64,64,64,1) 0%, rgba(213,213,213,1) 50%, rgba(64,64,64,1) 100%);
+}
+nav ul{
+	text-align:center;
+	padding: 8px;
+	list-style-type: none;
+}
+nav li{
+	display: inline; 
+	background-color: 
+	padding: 8px 20px;
+	border-radius: 3px;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px;
+}
+nav a:link{
+	color:grey;
+}
+nav a:visted{
+	color:purple;
+}
+nav a:hover{
+	color:black;
+}
+nav a:active{
+	color: lightgrey;
+}
+footer{
+	color: black;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    display: block;
+}
+
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 400px) {
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display:block;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
